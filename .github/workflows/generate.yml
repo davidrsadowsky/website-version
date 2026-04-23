@@ -41,7 +41,7 @@ jobs:
         run: node fetch_calendars.js
 
       - name: Move output to deploy folder
-        run: mkdir dist && mv index.html dist/
+       run: mkdir dist && mv calendar.html dist/index.html
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
